@@ -24,6 +24,11 @@ class Wego < Formula
         :revision => "a4bdc0729a3fda62cc4069b6e490fc657fd54e33"
   end
 
+  go_resource "github.com/mattn/go-isatty" do
+    url "https://github.com/mattn/go-isatty.git",
+        :revision => "2a2f0ea997f99becfd8423e4f337d171753fe685"
+  end
+
   def install
     ENV["GOPATH"] = buildpath
     (buildpath/"src/github.com/schachmat").mkpath
