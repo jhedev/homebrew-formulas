@@ -17,6 +17,7 @@ class Wego < Formula
     cd bin_path do
       # Install the compiled binary into Homebrew's `bin` - a pre-existing
       # global variable
+      system "go", "get", "-u", "-v"
       system "go", "build", "-o", bin/"wego", "."
     end
   end
