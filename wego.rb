@@ -1,8 +1,8 @@
 class Wego < Formula
   desc "Wego - weather app for the terminal"
   homepage "https://github.com/schachmat/wego"
-  url "https://github.com/schachmat/wego.git", :using => :git, :tag => "2.0"
-  version "2.0"
+  url "https://github.com/schachmat/wego.git", :using => :git, :revision => "994e4f141759a1070d7b0c8fbe5fad2cc7ee7d45"
+  version "3.0"
   sha256 ""
 
   depends_on "go" => :build
