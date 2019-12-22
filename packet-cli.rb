@@ -1,9 +1,9 @@
 class PacketCli < Formula
   desc "Official Packet CLI"
   homepage "https://github.com/packethost/packet-cli"
-  url "https://github.com/packethost/packet-cli/releases/download/0.0.4/packet-darwin-amd64"
-  sha256 "b9a0ec94491c4502d7553b4947f12f23320bf9faff4f15957b8b7ba2f7820b5b"
-  version "0.0.4"
+  url "https://github.com/packethost/packet-cli/releases/download/0.0.5/packet-darwin-amd64"
+  sha256 "0b1dd5048bac5942d6cd74f09abb03ddde07f0df7614bc662ba707da0a3665ca"
+  version "0.0.5"
 
   def install
     # install binary
